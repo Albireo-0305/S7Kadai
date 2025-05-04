@@ -21,9 +21,16 @@ public class S7Application {
 
 
   @GetMapping("/studentList")
-  public List<Student> getStudent() {
-    return repository.search();
+  public List<Student> getStudentList() {
+    return repository.Allstudents();
+  }
+
+  @GetMapping("/StudentsCoursesList")
+  public List<StudentsCourses> getStudentsCoursesList() {
+    return repository.AllStudentsCourses();
   }
 }
+
+
 
 
