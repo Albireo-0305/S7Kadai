@@ -19,16 +19,15 @@ public class S7Application {
     SpringApplication.run(S7Application.class, args);
   }
 
-
   @GetMapping("/studentList")
-  public List<Student> getStudentList() {
-    return repository.Allstudents();
-  }
+    public List<Student> getStudentList() {
+      return repository.Allstudents();
+    }
 
-  @GetMapping("/StudentsCoursesList")
-  public List<StudentsCourses> getStudentsCoursesList() {
-    return repository.AllStudentsCourses();
-  }
+    @GetMapping("/StudentsCoursesList")
+    public List<StudentsCourses> getStudentsCoursesList() {
+      return repository.AllStudentsCourses();
+    }
 }
 
 
