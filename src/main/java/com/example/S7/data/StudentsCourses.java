@@ -1,6 +1,6 @@
-package com.example.S7;
+package com.example.S7.data;
 
-import java.util.Date;
+import java.sql.Date;
 import lombok.Getter;
 import lombok.Setter;
 

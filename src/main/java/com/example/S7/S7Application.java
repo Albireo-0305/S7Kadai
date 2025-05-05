@@ -1,5 +1,8 @@
 package com.example.S7;
 
+import com.example.S7.data.Student;
+import com.example.S7.data.StudentsCourses;
+import com.example.S7.repository.StudentRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -20,15 +23,18 @@ public class S7Application {
   }
 
   @GetMapping("/studentList")
-    public List<Student> getStudentList() {
-      return repository.Allstudents();
-    }
+  public List<Student> getStudentList() {
+    return repository.Allstudents();
+  }
 
-    @GetMapping("/StudentsCoursesList")
-    public List<StudentsCourses> getStudentsCoursesList() {
-      return repository.AllStudentsCourses();
-    }
+  @GetMapping("/StudentsCoursesList")
+  public List<StudentsCourses> getStudentsCoursesList() {
+    return repository.AllStudentsCourses();
+  }
+
 }
+
+
 
 
 
