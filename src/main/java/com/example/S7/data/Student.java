@@ -1,4 +1,4 @@
-package com.example.S7;
+package com.example.S7.data;
 
 import lombok.Getter;
 import lombok.Setter;
