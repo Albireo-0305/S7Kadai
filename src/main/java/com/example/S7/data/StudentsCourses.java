@@ -1,6 +1,6 @@
 package com.example.S7.data;
 
-import java.sql.Date;
+import javax.xml.crypto.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +11,7 @@ public class StudentsCourses {
   public int courseid;
   public int studentid;
   public String coursename;
-  public Date startdate;
-  public Date expectedenddate;
+  public Data startdate;
+  public Data expectedenddate;
 
 }

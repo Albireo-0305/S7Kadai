@@ -31,7 +31,6 @@ public class S7Application {
   public List<StudentsCourses> getStudentsCoursesList() {
     return repository.AllStudentsCourses();
   }
-
 }
 
 
